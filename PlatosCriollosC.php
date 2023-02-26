@@ -28,7 +28,7 @@
             <div class="wrapper">
             <?php
       include("login_BD.php");
-      $query = mysqli_query($conexion,"SELECT * FROM producto where idcategoria = 5;");
+      $query = mysqli_query($conexion,"SELECT * FROM producto where idcategoria = 4;");
       $resultado = mysqli_num_rows($query);
       if($resultado>0){
         while ($data = mysqli_fetch_array($query)){
